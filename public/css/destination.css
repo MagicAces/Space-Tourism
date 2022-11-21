@@ -1,0 +1,140 @@
+body {
+  background-image: url("../assets/destination/background-destination-desktop.jpg");
+}
+
+/* HERO */
+
+.hero-box {
+  flex-wrap: nowrap;
+}
+
+
+.hero-text {
+  position: relative;
+  left: 30px;
+}
+
+.nav-2-container {
+  margin-top: 20px;
+  position: relative;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+  width: 400px;
+  backdrop-filter: blur(10px) opacity(0.8);
+}
+
+.nav-2 {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 0;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.nav-2:hover {
+  padding-bottom: 15px;
+  border-bottom: 3px solid #D0D6F9;
+}
+
+.nav-2-active {
+  padding-bottom: 15px;
+  border-bottom: 3px solid #FFFFFF;
+}
+
+.nav-hr {
+  width: 440px;
+  margin: 40px 0 0;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.info {
+  flex-basis: 40%;
+}
+
+.sub-head1 {
+  all: revert;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2.35px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0;
+}
+
+.sub-head2 {
+  all: revert;
+  font-family: 'Bellefair', serif;
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("../assets/destination/background-destination-tablet.jpg");
+  }
+
+  .nav-hr {
+    display: block;
+    width: 500px;
+  }
+
+  .nav-2-container {
+    width: auto;
+  }
+
+  .hero-text {
+    left: 0;
+  }
+
+  div img {
+    width: 70%;
+  }
+
+  h5 {
+    margin-top: 30px;
+  }
+
+  .nav-2:first-of-type {
+    margin-left: 30px;
+  }
+
+  .info-box {
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width:375px) {
+  body {
+    background-image: url("../assets/destination/background-destination-mobile.jpg");
+  }
+
+  .nav-2-container {
+    font-size: 16px;
+  }
+
+  .nav-2 {
+    margin-right: 20px;
+  }
+
+  .nav-hr {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .info-box {
+    flex-direction: column;
+    margin-left: 80px;
+  }
+}

@@ -1,0 +1,70 @@
+body {
+  background-image: url("../assets/home/background-home-desktop.jpg");
+}
+
+
+/* HERO */
+
+.explore {
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  padding: 0;
+  position: relative;
+  top: 90px;
+  left: 120px;
+
+}
+
+pre {
+  text-transform: uppercase;
+  font-family: 'Bellefair', serif;
+  font-size: 28px;
+  letter-spacing: 2.8px;
+  color: #0B0D17;
+  position: relative;
+  top: 110px;
+}
+
+.explore:hover {
+  box-shadow: 0 0 1px 80px hsla(0, 0%, 50%, 0.4);
+}
+
+.explore a {
+  all: unset;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("../assets/home/background-home-tablet.jpg");
+  }
+
+  .explore {
+    position: static;
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    background-image: url("../assets/home/background-home-mobile.jpg");
+  }
+
+  .explore {
+    margin-top: 30px;
+    width: 160px;
+    height: 160px;
+
+  }
+
+  pre {
+    font-size: 22px;
+    top: 70px;
+  }
+
+  .explore:hover {
+    box-shadow: 0 0 1px 50px hsla(0, 0%, 50%, 0.4);
+  }
+}
