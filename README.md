@@ -30,7 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://spacetourismsite.herokuapp.com/]
+- Solution URL: [Github](https://github.com/MagicAces/Space-Tourism/)
+- Live Site URL: [Render](https://spacetourismsite.onrender.com)
 
 ## My process
 
