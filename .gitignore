@@ -16,3 +16,5 @@
 .prettierignore
 ignore
 designs
+Procfile*
+/node_modules

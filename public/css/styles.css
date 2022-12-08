@@ -90,7 +90,7 @@ hr {
   width: 45%;
   /* -webkit-filter: blur(0.3px) opacity(0.9);
   backdrop-filter: blur(300x) opacity(0.9); */
-  background-color: hsla(0, 0%, 50%, 0.1);
+  background-color: hsla(0, 0%, 100%, 0.1);
   position: absolute;
   top: 15px;
   right: 0;
